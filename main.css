@@ -1,0 +1,91 @@
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #228a19;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #f00606;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #ff2a00;
+}
+
+.carousel-item img {
+    width:100%;
+}
+
+.section-title {
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.section-title span {
+    color: #228a19;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #f3625d;
+}
+
+.text-colored {
+    color: #228a19;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #228a19;
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #228a19;
+}
+
+.nav {
+    --bs-nav-link-hover-color: #228a19;
+}
+
+.cardapio {
+    padding: 50px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    background-color: #228a19;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.tab-pane img {
+    width: 100px;
+    height: 200px;
+}
